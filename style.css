@@ -1,0 +1,27 @@
+body {
+    background-color: #000000; /* Substitua pela cor desejada */
+}
+.container {
+    max-width: 100%; /* Define a largura máxima do contêiner. */
+    margin: center;  /* Centraliza o contêiner na página. */
+    text-align: center; /* Centraliza o conteúdo horizontalmente no contêiner. */
+}
+
+.imagem-responsiva {
+    max-width: 500px; /* Define a largura máxima de 500 pixels. */
+    height: auto;    /* Mantém a proporção da imagem. */
+    display: block; /* Remove qualquer espaço extra abaixo da imagem. */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente no contêiner. */
+}
+
+.meu-botao {
+    margin-top: 10px; /* Reduz a margem superior para diminuir o espaço. */
+    padding: 5px 10px; /* Reduz o preenchimento para diminuir o espaço interno. */
+    background-color: #ac1919; /* Cor de fundo do botão. */
+    color: #fff; /* Cor do texto do botão. */
+    border: none; /* Remove a borda do botão. */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão. */
+    cursor: pointer; /* Muda o cursor para uma mão quando o mouse passa sobre o botão. */
+    font-size: 12px; /* Reduz o tamanho da fonte do texto no botão. */
+    text-decoration: none; /* Remove a decoração de link (linha sublinhada). */
+}
